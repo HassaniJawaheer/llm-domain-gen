@@ -1,0 +1,17 @@
+# Ignore Python cache and environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# Ignore data files
+data
+
+# Ignore config and secrets
+.env
+
+# Ignore notebooks checkpoints
+.ipynb_checkpoints/
