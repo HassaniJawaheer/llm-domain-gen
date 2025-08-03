@@ -30,7 +30,6 @@ def convert_to_dataset(formatted_data: List[Dict]) -> Dataset:
     """Convert a list of dicts into a HuggingFace Dataset."""
     return Dataset.from_list(formatted_data)
 
-
 def split_dataset(dataset: Dataset, test_size: float = 0.1, seed: int = 42) -> Tuple[Dataset, Dataset]:
     """Split dataset into train and test sets."""
     split = dataset.train_test_split(test_size=test_size, seed=seed)
