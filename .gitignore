@@ -8,7 +8,7 @@ __pycache__/
 venv/
 
 # Ignore data files
-data
+#data
 
 # Ignore config and secrets
 .env
