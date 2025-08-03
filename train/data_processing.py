@@ -10,6 +10,18 @@ def load_json_dataset(path: str) -> List[Dict]:
     with open(path, 'r') as f:
         return json.load(f)
 
+def flatten(json_data: List[Dict]) -> List[Dict]:
+    flattened = []
+    for item in json_data:
+        desc = item["business_description"].strip()
+        for domain in item["domains"]:
+            domain_root = re.sub(r'\\.[a-z]{2,}$', '', domain.strip(), flags=re.IGNORECASE)
+            flattened.append({
+                "business_description": desc,
+                "domain": domain_root
+            })
+    return flattened
+
 def format_for_mistral(json_data: List[Dict]) -> List[Dict]:
     """
     Format entries for Mistral chat-style prompt

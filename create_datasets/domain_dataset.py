@@ -38,10 +38,10 @@ class DomainDataset:
                 previous_data = json.load(f)
             return attempt_id, new_file, last_file, previous_data
 
-    def _build_prompt(self, n: int = 5) -> str:
+    def _build_prompt(self) -> str:
         return f"""You are a domain name generator.
 
-Your task is to invent {n} fictitious businesses. For each business, write:
+Your task is to invent 20 fictitious businesses. For each business, write:
 
 1. A short and realistic business description (between 1 and 5 sentences), starting with the line: `Description:`
 2. Then generate 5 original and relevant domain name ideas, each on its own line, starting with: `Domains:`.
@@ -76,7 +76,7 @@ Do not skip or repeat any fields. Return plain text only.""".strip()
         payload = {
             "model": model,
             "messages": [{"role": "user", "content": prompt}],
-            "max_tokens": 1024,
+            "max_tokens": 7000,
             "temperature": 1.0,
             "top_p": 1.0,
             "frequency_penalty": 0.0,
@@ -94,12 +94,15 @@ Do not skip or repeat any fields. Return plain text only.""".strip()
         attempt_id, target_file, parent_file, previous_data = self._get_attempt_and_filename()
         path = os.path.join(self.data_dir, attempt_id)
         os.makedirs(path, exist_ok=True)
-
-        prompt = self._build_prompt(n)
-        raw_output = self._call_llm(prompt)
-        new_data = self.parse_llm_output(raw_output)
+        new_data = []
+        
+        for i in range(n):
+            prompt = self._build_prompt()
+            raw_output = self._call_llm(prompt)
+            gen_data = self.parse_llm_output(raw_output)
+            new_data.extend(gen_data)
+        
         full_data = previous_data + new_data
-
         with open(os.path.join(path, target_file), "w", encoding="utf-8") as f:
             json.dump(full_data, f, indent=2, ensure_ascii=False)
 

@@ -2,3 +2,8 @@ requests
 jupyterlab
 transormers
 datasets
+trl
+peft
+torch
+bitsandbytes
+accelerate
