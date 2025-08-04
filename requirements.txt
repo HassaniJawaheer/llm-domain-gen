@@ -7,3 +7,6 @@ peft
 torch
 bitsandbytes
 accelerate
+scikit-learn
+langchain-community
+openai

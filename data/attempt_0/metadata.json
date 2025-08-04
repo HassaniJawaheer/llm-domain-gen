@@ -1,8 +1,8 @@
 {
   "attempt_id": "attempt_0",
-  "latest_file": "domain_dataset_v6.json",
+  "latest_file": "domain_dataset_v10.json",
   "from_scratch": false,
-  "parent_file": "domain_dataset_v5.json",
-  "num_entries_total": 144,
-  "created_at": "2025-08-03T17:49:08.899794"
+  "parent_file": "domain_dataset_v9.json",
+  "num_entries_total": 544,
+  "created_at": "2025-08-04T16:31:29.139554"
 }
