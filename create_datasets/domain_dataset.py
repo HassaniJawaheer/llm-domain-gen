@@ -25,17 +25,30 @@ class DomainDataset:
         else:
             attempt_id = attempts[-1]
             path = os.path.join(self.data_dir, attempt_id)
-            versions = sorted([
+            versions = [
                 f for f in os.listdir(path)
                 if f.startswith("domain_dataset_v") and f.endswith(".json")
-            ])
+            ]
+
             if not versions:
                 raise ValueError(f"No dataset file found in {path}")
-            last_file = versions[-1]
-            last_index = int(last_file.split("_v")[1].split(".")[0])
+
+            indices = []
+            for f in versions:
+                match = re.search(r"_v(\d+)\.json$", f)
+                if match:
+                    indices.append((int(match.group(1)), f))
+
+            if not indices:
+                raise ValueError("No valid versioned files found.")
+
+            indices.sort()
+            last_index, last_file = indices[-1]
             new_file = f"domain_dataset_v{last_index + 1}.json"
+
             with open(os.path.join(path, last_file), "r", encoding="utf-8") as f:
                 previous_data = json.load(f)
+
             return attempt_id, new_file, last_file, previous_data
 
     def _build_prompt(self) -> str:
@@ -87,7 +100,7 @@ Do not skip or repeat any fields. Return plain text only.""".strip()
         if not response.ok:
             print(f"Groq returned {response.status_code}: {response.text}")
             response.raise_for_status()
-
+        
         return response.json()["choices"][0]["message"]["content"]
 
     def generate(self, n: int) -> None:
@@ -120,7 +133,7 @@ Do not skip or repeat any fields. Return plain text only.""".strip()
 
     @staticmethod
     def parse_llm_output(text: str) -> List[Dict]:
-        blocks = re.split(r"Business\s+\d+", text)
+        blocks = re.split(r"(?:^|\n)Business\s+\d+\s*\n", text)
         results = []
 
         for block in blocks:
