@@ -18,7 +18,7 @@ def load_model_4bit(model_name: str, bnb_config: BitsAndBytesConfig):
     )
     model.config.use_cache = False
     model.config.pretraining_tp = 1
-    model.gradient_checkpointing_enable(use_reentrant=False)
+    model.gradient_checkpointing_enable()
     model = prepare_model_for_kbit_training(model)
     return model
 
