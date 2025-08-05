@@ -45,10 +45,9 @@ def train_model(train_dataset, eval_dataset, train_config: dict):
         model=model,
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
-        peft_config=model.peft_config,
         tokenizer=tokenizer,
         args=training_args,
-        max_seq_length=train_config.get("max_seq_length", 256),
+        max_seq_length=train_config.get("max_seq_length", 128),
         dataset_text_field="text",
         packing=False,
     )
@@ -73,7 +72,7 @@ def train_model(train_dataset, eval_dataset, train_config: dict):
         "val_size": len(eval_dataset),
         "epochs": training_args.num_train_epochs,
         "batch_size": training_args.per_device_train_batch_size,
-        "max_seq_length": train_config.get("max_seq_length", 256),
+        "max_seq_length": train_config.get("max_seq_length", 128),
         "save_steps": training_args.save_steps
     }
     save_metadata(attempt_path, metadata)

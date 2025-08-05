@@ -1,9 +1,14 @@
 train_config = {
-    "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+    "base_model": "model-based",
 
+    # Training parameters
     "num_train_epochs": 3,
-    "batch_size": 16,
+    "per_device_train_batch_size": 4,
+    "per_device_eval_batch_size": 4,
     "gradient_accumulation_steps": 4,
+    "eval_accumulation_steps": 16,
+    "evaluation_strategy": "steps",  
+    "eval_steps": 50,
     "logging_steps": 50,
     "save_steps": 50,
     "learning_rate": 2e-4,
@@ -15,9 +20,10 @@ train_config = {
     "warmup_ratio": 0.3,
     "group_by_length": True,
     "lr_scheduler_type": "cosine",
-    "max_seq_length": 256,
+    "max_seq_length": 128,
     "optimizer": "paged_adamw_32bit",
 
+    # Quantization config
     "quantization": {
         "load_in_4bit": True,
         "bnb_4bit_quant_type": "nf4",
@@ -25,6 +31,7 @@ train_config = {
         "bnb_4bit_use_double_quant": False
     },
 
+    # LoRA config
     "lora": {
         "r": 64,
         "lora_alpha": 128,

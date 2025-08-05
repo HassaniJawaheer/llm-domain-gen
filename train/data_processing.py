@@ -14,7 +14,7 @@ def flatten(json_data: List[Dict]) -> List[Dict]:
     flattened = []
     for item in json_data:
         desc = item["business_description"].strip()
-        for domain in item["domains"]:
+        for domain in item["domain"]:
             domain_root = re.sub(r'\\.[a-z]{2,}$', '', domain.strip(), flags=re.IGNORECASE)
             flattened.append({
                 "business_description": desc,
