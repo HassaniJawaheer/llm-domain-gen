@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-GENERATION_REPO="https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2"
+GENERATION_REPO="https://huggingface.co/mistralai/Mistral-7B-v0.1"
 MODEL_PATH="model-based"
 
 # Vérifie si git-lfs est installé

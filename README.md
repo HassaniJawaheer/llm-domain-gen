@@ -32,7 +32,24 @@ This will:
 ./setup_env.sh
 ```
 
-4. **Launch the notebook**
+4. **Download the model**
+
+Make the download script executable:
+
+```bash
+chmod +x download_model.sh
+```
+
+Then run it to download the model:
+
+```bash
+./download_model.sh
+```
+
+The chosen model is **Mistral-7B-v0.1**, available here:
+[https://huggingface.co/mistralai/Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1)
+
+5. **Launch the notebook**
 
 To use the notebook:
 
@@ -42,7 +59,7 @@ jupyter lab
 
 Or open it directly from VS Code if Jupyter support is enabled.
 
-> You can now run the notebook.
+> You can now run the notebook `domain_generator_project.ipynb`.
 
 ## **Dataset Generation**
 
@@ -113,3 +130,64 @@ This will automatically:
 * Call the API and parse the results
 * Save the data in JSON format
 * Create metadata with timestamps and version info
+
+## **Fine-tuning**
+
+The model was fine-tuned using the **TRL** library, specifically the **SFT Trainer**.
+Tokenization was handled manually without using external helpers.
+
+For fine-tuning, **LoRA** was chosen, as it is the method already known and used in previous projects. No automated hyperparameter optimization was applied. Initial tests were started, but the code did not work as expected, so the idea was dropped.
+
+In LoRA fine-tuning, common parameters to adjust include:
+
+* **Rank (`r`)**
+* **Alpha (`lora_alpha`)**
+* **Dropout (`lora_dropout`)**
+* **Learning rate**
+
+The training process involved experimenting with these values and observing their effect on convergence. Based on the experiments reported here, some parameter combinations lead to better convergence, while others do not.
+
+## **Evaluation**
+
+Beyond the training loss, two main methods were used to evaluate the fine-tuned model.
+
+1. **Cosine Similarity**
+   This method checks whether the generated domain name is semantically close to the business description. While useful as a quick evaluation, the result is limited by the fact that the embedding model used is relatively small. With a larger and more capable model, this approach could become more robust and remove the need for an external API. Using OpenAI’s API for every generation would be costly, so having an in-house evaluation system is preferable.
+
+2. **GPT-4 Scoring**
+   As an additional test, GPT-4 was used to score the relevance of generated domain names. A custom prompt asked GPT-4 to assign a score, and this was applied to a random sample of the generated data (around 10% of the dataset) for cost reasons. The resulting scores are shown in the notebook.
+
+## **API — `main.py`**
+
+The project includes a simple **FastAPI** service with one `/generate` route.
+You send a business description, and the API returns a list of suggested domain names with a confidence score.
+
+Before processing, the API checks the description for explicit or inappropriate content using a keyword-based filter with regular expressions. If a match is found, the request is rejected; otherwise, it is processed normally.
+
+**Input:**
+
+```json
+{
+  "business_description": "Your business description",
+  "n_candidates": 3
+}
+```
+
+**Output:**
+
+```json
+{
+  "suggestions": [
+    { "domain": "domain_1.com", "confidence": 0.78 },
+    { "domain": "domain_3.net", "confidence": 0.65 }
+  ]
+}
+```
+
+The confidence score is based on cosine similarity for cost efficiency. GPT-4 scoring was tested and is sometimes more accurate, but embeddings are preferred for budget and control reasons.
+
+To run the API:
+
+```bash
+uvicorn main:app --host 127.0.0.1 --port 8000
+```

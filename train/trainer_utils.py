@@ -1,4 +1,4 @@
-from transformers import TrainingArguments
+from transformers import TrainingArguments, EarlyStoppingCallback
 
 def create_training_args(output_dir: str, config: dict) -> TrainingArguments:
     return TrainingArguments(
@@ -14,7 +14,7 @@ def create_training_args(output_dir: str, config: dict) -> TrainingArguments:
         eval_accumulation_steps=config.get("eval_accumulation_steps", 16),
 
         # Evaluation strategy
-        evaluation_strategy=config.get("evaluation_strategy", "no"),
+        eval_strategy=config.get("eval_strategy", "steps"),
         eval_steps=config.get("eval_steps", None),
 
         # Optimizer and scheduler
@@ -26,7 +26,12 @@ def create_training_args(output_dir: str, config: dict) -> TrainingArguments:
         # Logging and saving
         logging_steps=config.get("logging_steps", 50),
         save_steps=config.get("save_steps", 50),
-
+        
+        # save best model
+        load_best_model_at_end=True,
+        metric_for_best_model=config.get("metric_for_best_model", "eval_loss"),
+        greater_is_better=False,
+        
         # Regularization
         weight_decay=config.get("weight_decay", 0.001),
         max_grad_norm=config.get("max_grad_norm", 0.3),
@@ -40,4 +45,10 @@ def create_training_args(output_dir: str, config: dict) -> TrainingArguments:
 
         # Sequence handling
         group_by_length=config.get("group_by_length", True)
+    )
+
+def get_early_stopping_callback(config: dict):
+    return EarlyStoppingCallback(
+        early_stopping_patience=config.get("early_stopping_patience", 3),
+        early_stopping_threshold=config.get("early_stopping_threshold", 0.0)
     )

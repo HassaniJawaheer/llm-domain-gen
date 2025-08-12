@@ -1,5 +1,7 @@
 import os
 import json
+from pathlib import Path
+from peft import PeftModel
 
 def get_next_attempt_id(base_path: str = "attempts") -> str:
     if not os.path.exists(base_path):
@@ -16,3 +18,19 @@ def save_metadata(attempt_path: str, metadata: dict):
 def save_losses(attempt_path: str, losses: dict):
     with open(os.path.join(attempt_path, "losses.json"), "w") as f:
         json.dump(losses, f, indent=4)
+
+def save_weights(model, out_dir: str) -> str:
+    out = Path(out_dir)
+    out.mkdir(parents=True, exist_ok=True)
+
+    # Deepspeed/DDP safety: unwrap if needed
+    mdl = model.module if hasattr(model, "module") else model
+
+    if isinstance(mdl, PeftModel) or hasattr(mdl, "peft_config"):
+        # Save LoRA adapters only
+        mdl.save_pretrained(out)  # will write adapter_model.safetensors + adapter_config.json
+    else:
+        # Save full model weights
+        mdl.save_pretrained(out, safe_serialization=True)
+
+    return str(out)

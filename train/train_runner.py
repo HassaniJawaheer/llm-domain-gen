@@ -6,15 +6,15 @@ from transformers import BitsAndBytesConfig
 from trl import SFTTrainer
 
 from train.model_loader import load_model_4bit, load_tokenizer, apply_lora
-from train.trainer_utils import create_training_args
+from train.trainer_utils import create_training_args, get_early_stopping_callback
 from train.train_utils import get_next_attempt_id, save_metadata, save_losses
 
 
-def train_model(train_dataset, eval_dataset, train_config: dict):
+def train_model(train_dataset, eval_dataset, train_config: dict, models_dir: str):
     base_model = train_config.get("base_model", "models-based")
 
     # Prepare new training folder
-    base_path = os.path.join(os.path.dirname(__file__), "attempts")
+    base_path = os.path.join(models_dir, "weights")
     attempt_id = get_next_attempt_id(base_path)
     attempt_path = os.path.join(base_path, attempt_id)
     os.makedirs(attempt_path, exist_ok=True)
@@ -41,14 +41,18 @@ def train_model(train_dataset, eval_dataset, train_config: dict):
         config=train_config
     )
 
+    # Early stopping
+    callbacks = [get_early_stopping_callback(train_config)]
+
     trainer = SFTTrainer(
         model=model,
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
         tokenizer=tokenizer,
+        callbacks=callbacks,
         args=training_args,
         max_seq_length=train_config.get("max_seq_length", 128),
-        dataset_text_field="text",
+        dataset_text_field="input_ids",
         packing=False,
     )
 
@@ -77,5 +81,4 @@ def train_model(train_dataset, eval_dataset, train_config: dict):
     }
     save_metadata(attempt_path, metadata)
 
-    print(f"Training completed for {attempt_id}.")
-    return attempt_path
+    return model, attempt_path
