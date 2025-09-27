@@ -7,8 +7,8 @@ from safety.safety_filter import is_inappropriate
 
 app = FastAPI(title="Generate Domain API")
 
-MODEL_PATH = "models/merged_models/Mistral-7B-v0.1-generate-domain_v3"
-MAX_NEW_TOKENS = 10
+MODEL_PATH = "models/merged_models/Mistral-7B-v0.1-generate-domain_v6"
+MAX_NEW_TOKENS = 9
 
 model, tokenizer = load_model(model_path=MODEL_PATH)
 scorer = SimilarityScorer()

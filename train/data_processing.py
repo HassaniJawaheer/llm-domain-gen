@@ -2,7 +2,7 @@ import json
 from typing import List, Dict, Tuple
 import re
 from datasets import Dataset
-from transformers import PreTrainedTokenizer
+from transformers import PreTrainedTokenizer, AutoTokenizer
 import random
 
 
@@ -10,6 +10,9 @@ def load_json_dataset(path: str) -> List[Dict]:
     """Load raw JSON data from file."""
     with open(path, 'r') as f:
         return json.load(f)
+
+def load_tokenizer(model_path: str):
+    return AutoTokenizer.from_pretrained(model_path)
 
 def flatten(grouped_data: Dict[str, List[Dict]]) -> List[Dict]:
     flattened = []

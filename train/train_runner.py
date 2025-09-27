@@ -5,13 +5,14 @@ from datetime import datetime
 from transformers import BitsAndBytesConfig
 from trl import SFTTrainer
 
-from train.model_loader import load_model_4bit, load_tokenizer, apply_lora
+from utils.lora_utils import apply_lora
+from utils.model_loader import load_causal_model
 from train.trainer_utils import create_training_args, get_early_stopping_callback
 from train.train_utils import get_next_attempt_id, save_metadata, save_losses
 
 
 def train_model(train_dataset, eval_dataset, train_config: dict, models_dir: str):
-    base_model = train_config.get("base_model", "models-based")
+    base_model = train_config.get("base_model", "model-based")
 
     # Prepare new training folder
     base_path = os.path.join(models_dir, "weights")
@@ -19,21 +20,25 @@ def train_model(train_dataset, eval_dataset, train_config: dict, models_dir: str
     attempt_path = os.path.join(base_path, attempt_id)
     os.makedirs(attempt_path, exist_ok=True)
 
-    # Tokenizer
-    tokenizer = load_tokenizer(base_model)
-
     # BitsAndBytes config
     quant_cfg = train_config.get("quantization", {})
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=quant_cfg.get("load_in_4bit", True),
-        bnb_4bit_quant_type=quant_cfg.get("bnb_4bit_quant_type", "nf4"),
-        bnb_4bit_compute_dtype=getattr(torch, quant_cfg.get("bnb_4bit_compute_dtype", "bfloat16")),
-        bnb_4bit_use_double_quant=quant_cfg.get("bnb_4bit_use_double_quant", False),
-    )
-
-    # LoRA Model
-    model = load_model_4bit(base_model, bnb_config)
-    model = apply_lora(model)
+    
+    # Load Model and Tokenizer
+    model, tokenizer = load_causal_model(
+        model_path=base_model,
+        quant_mode=quant_cfg.get("load_in_4bit"), 
+        bnb_4bit_use_double_quant=False,  
+        bnb_4bit_quant_type=quant_cfg.get("bnb_4bit_quant_type"),
+        bnb_4bit_compute_dtype=torch.bfloat16,  
+        device_map="auto", # I got on device, so....
+        allow_cpu_offload=False,
+        torch_dtype=torch.bfloat16,
+        attn_implementation="sdpa",
+        trust_remote_code=True,
+    ) 
+    
+    # Apply LoRA
+    model = apply_lora(model, train_config.get("lora_config", None))
 
     # Training model
     training_args = create_training_args(
@@ -51,7 +56,7 @@ def train_model(train_dataset, eval_dataset, train_config: dict, models_dir: str
         tokenizer=tokenizer,
         callbacks=callbacks,
         args=training_args,
-        max_seq_length=train_config.get("max_seq_length", 128),
+        max_seq_length=train_config.get("max_seq_length", 96),
         dataset_text_field="input_ids",
         packing=False,
     )
@@ -76,7 +81,7 @@ def train_model(train_dataset, eval_dataset, train_config: dict, models_dir: str
         "val_size": len(eval_dataset),
         "epochs": training_args.num_train_epochs,
         "batch_size": training_args.per_device_train_batch_size,
-        "max_seq_length": train_config.get("max_seq_length", 128),
+        "max_seq_length": train_config.get("max_seq_length", 96),
         "save_steps": training_args.save_steps
     }
     save_metadata(attempt_path, metadata)

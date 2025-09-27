@@ -4,7 +4,6 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig, AutoConfig
 from peft import PeftModel
 
-# --- utils ---
 def _model_tag(model_name: str = "Mistral-7B-v0.1") -> str:
     return model_name
 
@@ -41,7 +40,6 @@ def _ensure_pad_token(tok, model=None):
     if model is not None and tok.pad_token_id is not None:
         model.config.pad_token_id = tok.pad_token_id
 
-# --- main operation ---
 def merge(
     base_model_id: str,
     adapter_path: str,

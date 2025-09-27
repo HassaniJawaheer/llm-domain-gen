@@ -1,0 +1,1647 @@
+[
+  {
+    "business_description": "HomeHelp is a home maintenance and repair service that connects homeowners with trusted and experienced technicians. From plumbing to electrical work, HomeHelp has got it covered.",
+    "generated_domain": "technicians.co",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "PetalPushers is a flower delivery service that offers same-day delivery of fresh bouquets and arrangements. They source their flowers from local farmers to ensure the highest quality.",
+    "generated_domain": "petaldelivery.com",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "Provenance is a fine art gallery that showcases original works by emerging and established artists. Their exhibitions feature painting, sculpture, photography, and mixed media.",
+    "generated_domain": "artadventure.io",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "FreshFare is a meal kit delivery service providing healthy, pre-portioned ingredients and easy-to-follow recipes for home cooking. Their menu changes seasonally to ensure the freshest ingredients and flavors.",
+    "generated_domain": "freshfare.io",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "TerraTonic is a sustainable landscaping company that creates eco-friendly outdoor spaces for residential and commercial clients. Their team of experts uses native plants and innovative designs to reduce environmental impact.",
+    "generated_domain": "greenlivinglandscaping",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "LearnLingo is a language learning platform that offers interactive lessons, podcasts, and language exchange programs. They aim to help users become fluent in a new language.",
+    "generated_domain": "fluentforfree.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "GreenScene is a landscaping company that specializes in sustainable and eco-friendly lawn care. They offer services from lawn mowing to garden design.",
+    "generated_domain": "ecoyards.com",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "Provenance Properties is a real estate company that specializes in historic home restoration and resale. Their team of experts work closely with clients to find their dream home.",
+    "generated_domain": "historicdwellings.co",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "PetPalooza is a subscription-based online community for pet owners and animal lovers. Members get access to exclusive content, discounts on pet products, and a social network to connect with other pet enthusiasts.",
+    "generated_domain": "pet",
+    "confidence": 0.2
+  },
+  {
+    "business_description": "BloomBotanicals is a skincare line that uses natural, organic ingredients to create effective, eco-friendly products. Their products are cruelty-free and vegan-friendly.",
+    "generated_domain": "bloombotanicals",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "TechToys is an online retailer that specializes in cutting-edge gadgets, innovative toys, and educational technology for kids and adults. Their staff is knowledgeable in tech trends and product design.",
+    "generated_domain": "techtoys.com",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "Pure Palette is a clean beauty brand that offers a range of natural skincare and makeup products that are free from harsh chemicals and toxins. Their products are cruelty-free and vegan-friendly.",
+    "generated_domain": "purebeautypro",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "Pulse Performance is a sports training facility that offers high-intensity workouts and personalized coaching. Their expert trainers help athletes of all levels improve their strength, speed, and agility.",
+    "generated_domain": "sportscoach.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshFoliage is a plant delivery service that offers a rotating selection of unique, low-maintenance plants for indoor and outdoor spaces. Their team of plant experts provide customized care tips and advice.",
+    "generated_domain": "plantpouring.co",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "GreenGrid is a sustainable energy company that installs and maintains solar panels and energy storage systems for residential and commercial clients. Our experts optimize energy efficiency.",
+    "generated_domain": "green-grid.co",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "BloomBeauty is a natural and organic skincare brand that offers cruelty-free, eco-friendly products for all skin types. Their mission is to promote healthy, glowing skin while protecting the environment.",
+    "generated_domain": "earthyorganics.net",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "StyleSavvy is a fashion consulting firm that offers personalized styling services for individuals and businesses. Their team of stylists provides customized wardrobe planning, fashion coaching, and image consulting services.",
+    "generated_domain": "fashionpro.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BloomBeauty is an eco-friendly beauty and skincare company that offers natural and organic products.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "PetalPushers is a flower delivery and event planning service that provides beautiful bouquets and arrangements for special occasions.",
+    "generated_domain": "they",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "AdventureAtlas is a travel company that specializes in customized adventure tours. They offer unique experiences such as hiking, rock climbing, and wildlife exploration in some of the world's most beautiful destinations.",
+    "generated_domain": "adventuresatlas.com",
+    "confidence": 0.95
+  },
+  {
+    "business_description": "BloomBites is a gourmet catering service that specializes in artisanal finger foods and event planning. Their team of skilled chefs and event coordinators work together to create unforgettable dining experiences.",
+    "generated_domain": "fingerfoodsbybloom",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "PetPalooza is an online marketplace for pet owners to find and book trusted pet sitters, dog walkers, and veterinarians. They offer a range of services, from daily dog walking to overnight pet sitting, and connect pet owners with local, reliable caregivers.",
+    "generated_domain": "pawsomepetsit",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "CodeCraze is a coding bootcamp that offers intensive, in-person training programs in web development, data science, and artificial intelligence. CodeCraze's experienced instructors provide mentorship, career coaching, and job placement support.",
+    "generated_domain": "coderdojo.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "SafeHaven is a home security company that provides customized security solutions, including alarm systems, cameras, and monitoring services. They offer 24/7 support to ensure a safe and secure home environment.",
+    "generated_domain": "homesecuritypro.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "TechSpark is a digital marketing agency that specializes in AI-driven campaign optimization and data analytics. They help businesses drive growth and improve their online presence.",
+    "generated_domain": "adspark.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "ProPro is a professional networking platform that connects freelancers and independent contractors with businesses and entrepreneurs. They offer a range of services, from project management to invoicing and payment processing.",
+    "generated_domain": "professionalnetwork.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BloomBeauty is a natural skincare brand that offers a range of products made from organic ingredients. Their products are free from harsh chemicals and are designed to promote healthy, glowing skin.",
+    "generated_domain": "skincarestudio",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "CraftCrew is a craft brewery that specializes in unique, small-batch beers. Their brewmasters use traditional techniques and creative ingredients to craft exceptional beers.",
+    "generated_domain": "craftbrewers.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "GreenThrive is a landscaping company that specializes in designing and installing sustainable outdoor spaces. They use eco-friendly materials and practices to create beautiful gardens and yards.",
+    "generated_domain": "greenthrive.com",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "GreenEarth is a sustainable landscaping company that specializes in eco-friendly lawn care, gardening, and outdoor design. Their team of experts uses organic products and environmentally responsible practices to create beautiful, healthy outdoor spaces.",
+    "generated_domain": "sustainablespaces.io",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "BloomBride is a wedding planning and coordination service that specializes in bespoke, outdoor weddings. Their team of experts helps couples bring their unique vision to life.",
+    "generated_domain": "outdooraffair.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "Vibe Village is a community-driven coworking space that offers flexible lease terms, high-speed internet, and access to networking events and workshops. They focus on promoting collaboration, innovation, and social responsibility.",
+    "generated_domain": "coworking.com",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "LuxeLiving is a high-end interior design firm that specializes in creating opulent, bespoke spaces for residential and commercial clients. Their designers prioritize luxury, comfort, and functionality.",
+    "generated_domain": "lavee.io",
+    "confidence": 0.3
+  },
+  {
+    "business_description": "ProvenPerformance is a sales training and consulting firm that helps businesses improve their sales performance. They offer customized training programs, coaching, and strategy development to drive sales growth.",
+    "generated_domain": "salesstrategy.net",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "DreamDecor is an interior design company that offers home staging, decorating, and organizational services. They help homeowners create beautiful and functional living spaces.",
+    "generated_domain": "interiorbliss.io",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "GreenThrive is a hydroponic farm that grows fresh, sustainable produce using state-of-the-art technology. They supply local restaurants and grocery stores with high-quality greens.",
+    "generated_domain": "greenproduce.io",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "LingoLabs is a language learning platform that uses AI-powered chatbots and virtual reality to create an immersive learning experience.",
+    "generated_domain": "learn",
+    "confidence": 0.2
+  },
+  {
+    "business_description": "BrightBytes is a digital marketing agency providing expert SEO, social media, and content creation services for businesses and startups. Their team crafts targeted strategies to drive online growth.",
+    "generated_domain": "digitalgarden.co",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "CraftCrew is a handmade marketplace that connects artisans and makers with customers looking for unique, handcrafted goods.",
+    "generated_domain": "craftcreators.com",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "ProPro is a professional development platform that connects freelancers and entrepreneurs with industry experts for personalized coaching and training. Our mentors offer actionable advice.",
+    "generated_domain": "businessacademy.co",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "BloomBites is a healthy snack box subscription service that delivers plant-based, gluten-free, and vegan-friendly treats to customers' doorsteps. They partner with local farmers and artisans to source ingredients.",
+    "generated_domain": "greenplateco.com",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "FreshFit is a meal delivery service that offers healthy, gourmet meals prepared by top chefs. Their menu changes seasonally and caters to various dietary needs.",
+    "generated_domain": "freshpro.io",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "CoreCraft is a fitness studio that offers high-intensity interval training (HIIT), strength training, and conditioning classes. They focus on community building, accountability, and results-driven workouts.",
+    "generated_domain": "craftphysique.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "TechToys is an online store that specializes in selling innovative and educational toys for kids. Their products focus on STEM education and creative play.",
+    "generated_domain": "techtoys.com",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "Elevate Education is an online learning platform that offers courses, tutorials, and workshops on a variety of subjects, including business, technology, and creative skills.",
+    "generated_domain": "knowledgeacademy.co",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "FitnessFusion is a fitness studio that combines traditional exercise routines with alternative practices like yoga, Pilates, and meditation. FitnessFusion offers group classes, personal training, and wellness workshops.",
+    "generated_domain": "fusionfit.co.uk",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "FiddleFit is a fitness studio offering personalized training sessions, group classes, and nutrition coaching for a holistic approach to wellness.",
+    "generated_domain": "the",
+    "confidence": 0.0
+  },
+  {
+    "business_description": "FreshBite is a healthy food delivery service that provides customers with nutritious meals made from locally sourced ingredients. Their menu changes seasonally and caters to various dietary needs.",
+    "generated_domain": "freshbites.ca",
+    "confidence": 0.95
+  },
+  {
+    "business_description": "MindMend is a mental wellness platform that offers AI-powered coaching, meditation tools, and community support to help you achieve emotional balance and resilience.",
+    "generated_domain": "calmcollective.com",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "FreshFare is a meal kit delivery service that partners with local farmers to source ingredients. They offer vegetarian, vegan, and gluten-free options.",
+    "generated_domain": "localharvestdelivered",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "CreativeCraze is a digital marketing agency that specializes in social media management, content creation, and SEO services. Their creative team helps businesses build their online presence and drive sales.",
+    "generated_domain": "mediawizard.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "GreenEarth Landscaping is a lawn care company that specializes in sustainable landscaping practices. They use eco-friendly products and provide services such as lawn maintenance, tree care, and garden design.",
+    "generated_domain": "greencarepros",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "Provenance Properties is a commercial real estate investment firm specializing in acquisitions, development, and property management. With a focus on strategic growth and risk management, Provenance Properties helps investors achieve their financial goals.",
+    "generated_domain": "investmentinsight.io",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "TechForge is a cybersecurity consulting firm that helps businesses protect themselves against cyber threats and data breaches. Their expert analysts provide vulnerability assessments, penetration testing, and compliance solutions.",
+    "generated_domain": "securestudio.pro",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "PetPalooza is an online marketplace for pet owners to find and book dog walkers, pet sitters, and groomers. The platform allows users to read reviews and schedule services with trusted providers.",
+    "generated_domain": "dogwalkersunite",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "Proxima is a logistics and supply chain management company that helps businesses optimize their shipping and delivery processes. Their technology platform provides real-time tracking and analytics.",
+    "generated_domain": "freightfuel.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BloomBites is a healthy meal kit delivery service that specializes in plant-based cuisine. Their chef-designed recipes cater to vegans, gluten-free dieters, and anyone looking for a nutritious meal.",
+    "generated_domain": "bloombites.me",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "LumiStudio is a photography studio that specializes in portrait, wedding, and event photography. They offer customized photography packages and editing services.",
+    "generated_domain": "lenswork.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "ProPro is a professional development platform that connects freelancers and entrepreneurs with industry experts for personalized coaching and training. Our mentors offer actionable advice.",
+    "generated_domain": "expertedge.biz",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "DreamDwell is a luxury interior design firm that specializes in bespoke, high-end residential design projects. Their team of expert designers creates customized, luxurious living spaces.",
+    "generated_domain": "homehaven.co",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "Lumina Luxe is a luxury candle and home fragrance company that offers high-quality, artisanal candles and diffusers. Their products are designed to provide ambiance and relaxation.",
+    "generated_domain": "scentsationalcandles",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "CodeCraze is a coding bootcamp that offers intensive training programs and mentorship for aspiring developers.",
+    "generated_domain": "with",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "GreenEarth is a sustainable landscaping company that specializes in eco-friendly lawn care, gardening, and outdoor design. Their team of experts uses organic products and environmentally responsible practices to create beautiful, healthy outdoor spaces.",
+    "generated_domain": "greenearthenterprises",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "SparkleSquad is a professional cleaning and organization service that specializes in move-in/move-out cleaning, decluttering, and home staging for real estate clients.",
+    "generated_domain": "cleaningpros.net",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "TechSpark is a technology consulting firm providing IT solutions, software development, and cybersecurity services to businesses of all sizes.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "FreshBite is a meal delivery service that offers healthy, pre-portioned meals for individuals and families. Their chefs use locally sourced ingredients and offer vegetarian, vegan, and gluten-free options.",
+    "generated_domain": "freshbite.delivery",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "FreshFit is a meal prep and nutrition service that provides healthy and customizable meal plans for individuals and families. Their team of registered dietitians and chefs create delicious and nutritious meals.",
+    "generated_domain": "nutritious.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "DreamDecor is an interior design firm that specializes in creating unique, stylish spaces for homes and commercial properties.",
+    "generated_domain": "they",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "CraftCo is a coworking space that caters to creatives, freelancers, and startups. They offer flexible membership plans, networking events, and mentorship programs.",
+    "generated_domain": "craftco.space",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "CodeCraze is a coding academy that offers online courses, bootcamps, and workshops for students of all ages and skill levels. Their mission is to provide accessible and engaging computer science education.",
+    "generated_domain": "codewizard.world",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "WiseWonders is an educational platform that offers interactive STEM-based learning tools and games for kids. They partner with schools and educational institutions.",
+    "generated_domain": "teachertime.io",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "BloomBeauty is a skincare and cosmetics company that offers natural, organic products for all skin types.",
+    "generated_domain": "our",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "WiseWonders is an educational platform that offers interactive STEM-based learning tools and games for kids. They partner with schools and educational institutions.",
+    "generated_domain": "wisewonders.co",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "ZenZone is a meditation and mindfulness studio that offers classes, workshops, and private sessions to promote mental clarity and inner peace. Their team of certified instructors guide students on a journey of self-discovery and relaxation.",
+    "generated_domain": "mindfulnessgurus",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "SkillSphere is an online learning platform that offers courses and tutorials in a variety of subjects, including technology, business, and creative arts. Their experienced instructors focus on providing engaging and interactive lessons.",
+    "generated_domain": "learnlabs.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "XploreX is an adventure travel company that offers customized trips to unique destinations around the world. They provide travel planning, itinerary design, and travel consulting services.",
+    "generated_domain": "adventurerefresh",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BloomBazaar is an online marketplace for artisanal goods, featuring unique handmade products from around the world. The platform allows customers to discover and support independent makers and small businesses.",
+    "generated_domain": "uniquefinds.store",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FoodForThought is a meal kit delivery service that focuses on providing healthy, mind-boosting meals for busy professionals and students. Their recipes are carefully crafted to improve focus, energy, and overall well-being.",
+    "generated_domain": "mealkitsforthinking",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "FitBuddy is a social fitness platform that connects users with like-minded workout partners in their local area. Users can find a workout buddy, join fitness groups, and track their progress together.",
+    "generated_domain": "fithappy.com",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "GreenScene is a landscaping company that specializes in eco-friendly and sustainable outdoor designs for residential and commercial properties.",
+    "generated_domain": "greenyard.services",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "GreenThrive is a landscaping and gardening company that helps homeowners and businesses create beautiful and sustainable outdoor spaces.",
+    "generated_domain": "greenthrive.co",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "CraftCoven is a subscription-based service that delivers a monthly selection of artisanal craft supplies, including yarn, fabric, and paper goods. They offer online tutorials and community support.",
+    "generated_domain": "craftcoven.com",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "MindMend is a mental health platform that connects users with licensed therapists and counselors. They offer online sessions and personalized care plans.",
+    "generated_domain": "mindover.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "PurePets is a pet grooming salon that offers a range of pet grooming services, including bathing, styling, and nail care. Their experienced groomers provide a safe and relaxing environment for pets.",
+    "generated_domain": "petpampering",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "ProPilots is a flight school and aviation services company that offers customized flight training, aircraft rental, and charter services.",
+    "generated_domain": "their",
+    "confidence": 0.0
+  },
+  {
+    "business_description": "GreenThrive is a sustainable landscaping company that designs and installs eco-friendly outdoor spaces, including rain gardens, native plantings, and green roofs.",
+    "generated_domain": "with",
+    "confidence": 0.0
+  },
+  {
+    "business_description": "FluxFitness is a fitness app that offers personalized workout plans, nutrition coaching, and mindfulness exercises. Their certified trainers provide virtual support and guidance for users.",
+    "generated_domain": "getfitwithgo.com",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "Lumina Luxe is a luxury candle and home fragrance company that offers high-quality, artisanal candles and diffusers. Their products are designed to provide ambiance and relaxation.",
+    "generated_domain": "luxuryscent.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "ZenZone is a wellness center that offers meditation, massage, and holistic therapies to individuals seeking relaxation and stress relief. The center aims to provide a peaceful, calming environment for wellness seekers.",
+    "generated_domain": "relaxation.studio.us",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshFit is a meal delivery service that provides healthy, organic, and customizable meal plans for fitness enthusiasts and busy professionals. Their chefs create nutritious meals that cater to various dietary needs and preferences.",
+    "generated_domain": "fitkitchen.io",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "ProPro is a project management tool that helps teams stay organized and on track. It includes features like task assignments, timelines, and communication tools.",
+    "generated_domain": "projectmanager.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FluxFitness is a fitness app that offers personalized workout plans, nutrition coaching, and mindfulness exercises. Their certified trainers provide virtual support and guidance for users.",
+    "generated_domain": "fitnesstrainapp",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "Flavorquest is a specialty food company that imports and distributes artisanal and gourmet ingredients from around the world. With a focus on unique and exotic flavors, Flavorquest is the perfect destination for chefs, foodies, and adventurous cooks.",
+    "generated_domain": "artisanalflavors",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "VentureVelo is a venture capital firm that specializes in investing in startups and early-stage companies in the tech, healthcare, and sustainable energy sectors. Their mission is to fuel innovation and drive growth in these industries.",
+    "generated_domain": "earlystagefuel.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "DesignDen is a graphic design agency that specializes in branding, web design, and digital marketing services.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "XploreX is an adventure travel company that offers customized trips to unique destinations around the world. They provide travel planning, itinerary design, and travel consulting services.",
+    "generated_domain": "explorext.com",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "BloomBrite is a subscription-based flower delivery service that provides fresh, hand-picked bouquets to brighten up homes and offices. They offer flexible subscription plans and a wide variety of flowers to suit different tastes and occasions.",
+    "generated_domain": "bloombright.com",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "PetPalooza is a pet-sitting and dog-walking service that provides loving care for furry friends while their owners are away.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "HomeHelp is a home maintenance and repair service that connects homeowners with trusted and experienced technicians. From plumbing to electrical work, HomeHelp has got it covered.",
+    "generated_domain": "householdhandyman.com",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "CraftCrew is a handmade marketplace that connects artisans and makers with customers looking for unique, handcrafted goods.",
+    "generated_domain": "the",
+    "confidence": 0.0
+  },
+  {
+    "business_description": "BakedBuzz is a gourmet coffee shop chain that specializes in artisanal coffee blends and sweet treats. They source high-quality beans from local farmers and offer a cozy atmosphere for customers to relax and work.",
+    "generated_domain": "beanandbliss.co",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "CodeCraze is a coding competition platform that connects software developers with innovative companies. Our platform provides a space for coders to showcase their skills and compete for prizes and recognition.",
+    "generated_domain": "codingstudio.me",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "BistroBite is a gourmet food truck serving artisanal sandwiches, salads, and sides at corporate events, festivals, and outdoor gatherings.",
+    "generated_domain": "tastebite.pro",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "MindfulMinds is a mental health clinic that offers therapy sessions, counseling, and mindfulness coaching for individuals, couples, and families. They emphasize empathy and personalized care.",
+    "generated_domain": "therapystudios.io",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "FreshFit is a meal planning and prep service that offers healthy and customizable meal plans, with a focus on fitness and nutrition.",
+    "generated_domain": "the",
+    "confidence": 0.0
+  },
+  {
+    "business_description": "FreshFit is a healthy meal delivery service that specializes in nutritionally balanced and portion-controlled meals. With a focus on convenience and healthy eating, FreshFit aims to help individuals achieve their fitness goals.",
+    "generated_domain": "healthyhabitsdelivered",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "FreshFare is a meal kit delivery service that provides healthy, pre-portioned ingredients and recipes to customers. Their team of chefs and nutritionists design meals that cater to various dietary needs and preferences.",
+    "generated_domain": "mealkitdelivery.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "ProPro is a project management consulting firm that helps businesses streamline their operations. Their expert team provides customized solutions for increased efficiency.",
+    "generated_domain": "propro.net",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "FlowState is a productivity coaching service that helps individuals and teams achieve their goals and maximize their time. Their team of coaches provides personalized guidance, training, and accountability.",
+    "generated_domain": "workstate.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FiddleFit is a fitness studio offering personalized training sessions, group classes, and nutrition coaching for a holistic approach to wellness.",
+    "generated_domain": "fitfit.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "TechToys is an online retailer that specializes in cutting-edge gadgets, innovative toys, and educational technology for kids and adults. Their staff is knowledgeable in tech trends and product design.",
+    "generated_domain": "toytechencounter.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshBite is a meal kit delivery service that specializes in healthy, plant-based meals for busy professionals. Their recipes are crafted by a team of expert chefs and nutritionists to provide a balanced and delicious dining experience.",
+    "generated_domain": "mealtimewellness.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "XploreX is an adventure travel company that offers guided tours, expeditions, and outdoor activities to thrill-seekers and nature lovers. The company aims to provide unique, off-the-beaten-path experiences.",
+    "generated_domain": "explorextreme.io",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "CodeCrafter is an online coding bootcamp that provides interactive, project-based learning experiences for aspiring software developers. Their curriculum covers a range of programming languages and technologies.",
+    "generated_domain": "devlearn.online.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "PetalPushers is a flower delivery service that offers same-day delivery of fresh bouquets and arrangements. They source their flowers from local farmers to ensure the highest quality.",
+    "generated_domain": "flowerpushers.co",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "BloomBeauty is a beauty and wellness center that provides a range of services including skincare, makeup, and massage therapy. Their mission is to help clients achieve beauty and wellness from the inside out.",
+    "generated_domain": "beautysolutions.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BloomBeauty is a subscription-based beauty box service that sends a monthly selection of natural, organic, and cruelty-free products to customers. The company partners with emerging brands and indie beauty artisans.",
+    "generated_domain": "productprodigy.net",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "FreshFare is a meal delivery service that offers healthy and organic meals for busy professionals and families. They cater to different dietary needs.",
+    "generated_domain": "eatfreshnow.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BloomBazaar is an online marketplace where artisans and makers can showcase and sell their handmade, unique products. From jewelry to home decor, discover one-of-a-kind treasures.",
+    "generated_domain": "creativetradingpost",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshFiesta is a catering and event planning company that specializes in creating customized and memorable events for corporate and social gatherings.",
+    "generated_domain": "event",
+    "confidence": 0.2
+  },
+  {
+    "business_description": "ZenZone is a wellness center that offers yoga classes, meditation sessions, and spa services. They focus on promoting relaxation and self-care.",
+    "generated_domain": "zenzone",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "CodeCast is an online education platform that offers live coding classes, workshops, and mentoring services to help aspiring developers improve their coding skills and build their portfolios.",
+    "generated_domain": "our",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "Serenity Spaces is a boutique interior design firm creating peaceful and functional home offices and workspaces for remote workers and entrepreneurs.",
+    "generated_domain": "interiorzen.designs",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "Bright Smile Dental is a family-friendly dental practice that offers general dentistry, orthodontics, and cosmetic dentistry services.",
+    "generated_domain": "their",
+    "confidence": 0.0
+  },
+  {
+    "business_description": "StyleSavvy is a personal shopping service that connects fashion-conscious individuals with expert stylists who provide personalized wardrobe consultations, shopping trips, and more.",
+    "generated_domain": "the",
+    "confidence": 0.0
+  },
+  {
+    "business_description": "FitnessFusion is a high-energy fitness studio that offers a variety of group classes, personal training, and yoga instruction. They cater to clients of all fitness levels and goals.",
+    "generated_domain": "fusionofwellness.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FarmFresh is a farm-to-table grocery delivery service that sources produce from local, organic farms. With a focus on healthy eating and sustainable agriculture, FarmFresh helps customers support the local food economy and enjoy fresh, seasonal produce.",
+    "generated_domain": "farmfreshproduce",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "FreshFoliage is a plant delivery service that provides lush, healthy plants to homes and offices. Their mission is to bring the beauty of nature indoors and promote well-being through plant care.",
+    "generated_domain": "greenwaves.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "Windsong is a renewable energy company that develops and installs wind turbines, solar panels, and energy storage systems for residential and commercial clients. Their solutions reduce carbon footprint.",
+    "generated_domain": "renewablefutures",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "MedMaven is a healthcare technology company that develops AI-powered diagnostic tools and medical software solutions for healthcare providers and patients.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "Provenance Partners is a venture capital firm investing in early-stage startups and growth-stage companies in the technology, healthcare, and sustainable energy sectors.",
+    "generated_domain": "provenancevcc.com",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "Pulse Productions is a video production company that specializes in creating engaging, high-quality content for corporate clients, non-profits, and startups.",
+    "generated_domain": "vpictures.com",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "StyleSavvy is a personal shopping service that connects fashion-conscious individuals with expert stylists who provide personalized wardrobe consultations, shopping trips, and more.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "PurePods is a company that offers eco-friendly and sustainable coffee pods made from biodegradable materials. They partner with local coffee roasters to offer unique blends.",
+    "generated_domain": "biobeans.biz",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "DreamDwell is a home decor and furniture rental service that provides users with stylish and affordable options for their homes. Their mission is to make home decor accessible and convenient.",
+    "generated_domain": "furnitureshire.net",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "Proxima is a cutting-edge tech firm that develops AI-powered solutions for businesses and governments. They focus on data analytics, cybersecurity, and automation.",
+    "generated_domain": "proxima.io",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "BloomBites is a plant-based food company that offers a subscription box service, delivering healthy and tasty meals to customers' doors.",
+    "generated_domain": "they",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "TechSpark is a cutting-edge coding bootcamp that teaches students of all levels how to build innovative software solutions. Our expert instructors provide personalized guidance and mentorship to help students achieve their career goals.",
+    "generated_domain": "softwarecraft.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "PetPalooza is an online pet store that offers a wide range of pet supplies, toys, and accessories for dogs, cats, birds, and small animals. They provide fast shipping, competitive prices, and expert pet advice.",
+    "generated_domain": "petstorepro.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "Pure Palette is a clean beauty brand that offers a range of natural skincare and makeup products that are free from harsh chemicals and toxins. Their products are cruelty-free and vegan-friendly.",
+    "generated_domain": "cleanandbeautiful",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BloomBazaar is an online marketplace that connects artisans and small businesses with customers looking for unique, handmade products. They focus on promoting sustainable and fair trade practices.",
+    "generated_domain": "bloombazaar.co",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "SparkleSquad is a professional cleaning and organization service that specializes in move-in/move-out cleaning, decluttering, and home staging for real estate clients.",
+    "generated_domain": "declutterbliss.net",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "GreenThrive is a sustainable landscaping company that specializes in eco-friendly garden design, maintenance, and installation. Their team of experts uses environmentally responsible practices to create beautiful outdoor spaces.",
+    "generated_domain": "gardencarepro.com",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "GreenScene is a landscaping company that specializes in sustainable and eco-friendly lawn care. They offer services from lawn mowing to garden design.",
+    "generated_domain": "luscoliving.com",
+    "confidence": 0.3
+  },
+  {
+    "business_description": "Flavorquest is a specialty food company that imports and distributes artisanal and gourmet ingredients from around the world. With a focus on unique and exotic flavors, Flavorquest is the perfect destination for chefs, foodies, and adventurous cooks.",
+    "generated_domain": "gourmetingredients",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BloomBites is a healthy food delivery service that offers customized meal plans for individuals with dietary restrictions and preferences. Their chefs use fresh, locally-sourced ingredients to create delicious and nutritious meals.",
+    "generated_domain": "bloomingbellies.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "Lumina Luxe is a high-end jewelry brand that creates bespoke, handmade pieces using precious metals and gems. Their designs are inspired by celestial bodies and natural wonders.",
+    "generated_domain": "high.design.end",
+    "confidence": 0.2
+  },
+  {
+    "business_description": "FreshFit is a meal prep and nutrition service that provides healthy and customizable meal plans for individuals and families. Their team of registered dietitians and chefs create delicious and nutritious meals.",
+    "generated_domain": "dietfresh.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "CodeCraze is a coding competition platform that connects software developers with innovative companies. Our platform provides a space for coders to showcase their skills and compete for prizes and recognition.",
+    "generated_domain": "softwarestargazers",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "FreshFare is a meal kit delivery service that offers healthy, pre-portioned meals with easy-to-follow recipes. Their chefs create unique and delicious dishes that cater to all dietary needs and preferences.",
+    "generated_domain": "freshfarekitchen",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "GreenEarth Landscaping is a sustainable landscaping company that specializes in eco-friendly lawn care and garden design services. They use organic fertilizers and implement water-conserving practices.",
+    "generated_domain": "yardcare.io",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "StyleSavvy is a personal styling and fashion consulting service that helps individuals develop their personal style and wardrobe.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "GreenThrive is a sustainable gardening and landscaping service that helps homeowners create eco-friendly outdoor spaces. GreenThrive's experts design and install rainwater harvesting systems, native plant gardens, and energy-efficient irrigation systems.",
+    "generated_domain": "gosustainablegard",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "ProPilots is a flight school that offers professional pilot training and certification programs. With experienced instructors and a comprehensive curriculum, ProPilots helps aspiring pilots achieve their aviation goals.",
+    "generated_domain": "aviationaled.co",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "VentureVine is a business incubator that provides resources, mentorship, and funding to startups and entrepreneurs. Their expert team helps clients develop and launch innovative products and services.",
+    "generated_domain": "startupstudio.pro",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "TechTopia is a tech support company that offers IT services, cybersecurity solutions, and computer repair to individuals and businesses. The company aims to provide reliable, expert technical support.",
+    "generated_domain": "techsupport.io",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "PetPalooza is an online pet supply store that offers a wide range of high-quality pet food, toys, and accessories. They pride themselves on their fast shipping and excellent customer service.",
+    "generated_domain": "onlinepetemporium.io",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "MindfulMinds is a mental health platform that offers online therapy sessions, meditation classes, and mindfulness coaching. They aim to promote mental wellness and self-care.",
+    "generated_domain": "mindfulnesssolutions.com",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "Provenance Properties is a luxury real estate agency that specializes in high-end residential and commercial properties. Their expert agents provide personalized service, market analysis, and negotiation support for discerning clients.",
+    "generated_domain": "propertiesperfected.com",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "FreshBite is a healthy food delivery service that provides customers with nutritious meals made from locally sourced ingredients. Their menu changes seasonally and caters to various dietary needs.",
+    "generated_domain": "healthyvibes.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "PetPalooza is a subscription box service for pet owners, offering a monthly delivery of fun treats, toys, and accessories for their furry friends.",
+    "generated_domain": "our",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "BloomBeauty is a natural skincare brand that creates effective, plant-based products for all skin types. Their team of skincare experts formulates innovative, cruelty-free products that promote healthy, glowing skin.",
+    "generated_domain": "skincarebystars",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "FreshFiesta is a food truck company that specializes in serving authentic and delicious street food from around the world. Their menu features tacos, BBQ, and international cuisine.",
+    "generated_domain": "streetfoodtreats",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "FreshFoliage is a plant delivery service that offers a rotating selection of unique, low-maintenance plants for indoor and outdoor spaces. Their team of plant experts provide customized care tips and advice.",
+    "generated_domain": "pplplants.net",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "SunScription is a solar panel installation company that provides residential and commercial clients with clean energy solutions. They offer financing options and maintenance services.",
+    "generated_domain": "solarprofessionals.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "DreamDecor is an interior design firm that specializes in creating bespoke spaces for residential and commercial clients. Their team of designers offers personalized consultations and custom plans.",
+    "generated_domain": "dreamspaces.co",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "BloomBites is a healthy snack delivery service that offers nutritious and delicious bites made from organic ingredients. Their menu changes seasonally to reflect the freshest produce available.",
+    "generated_domain": "nutritiousnibbles",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "SafeHaven is a cybersecurity firm that provides threat assessment, penetration testing, and incident response services to businesses and governments. Their team of experts stays ahead of emerging threats.",
+    "generated_domain": "threatresponse.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "ProPro is a professional networking platform that connects freelancers and independent contractors with businesses and entrepreneurs. They offer a range of services, from project management to invoicing and payment processing.",
+    "generated_domain": "freelanceconnect.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FoodFiesta is a meal kit delivery service that specializes in international cuisine. Their recipes are designed to explore flavors and ingredients from around the world.",
+    "generated_domain": "foodfiesta.net",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "BloomBride is a wedding planning and coordination service that specializes in bespoke, outdoor weddings. Their team of experts helps couples bring their unique vision to life.",
+    "generated_domain": "blissfulblooms",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshFare is a meal delivery service that provides healthy and customizable meal options for individuals with dietary restrictions.",
+    "generated_domain": "freshfoodbox.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "GreenThrive is a sustainable landscaping company that designs and installs eco-friendly outdoor spaces, including rain gardens, native plantings, and green roofs.",
+    "generated_domain": "landscapecarepros",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "BloomBites is a healthy food delivery service that offers customizable meal plans based on individual dietary needs. They use locally sourced ingredients and offer vegan, gluten-free, and keto options.",
+    "generated_domain": "bitebybloom.t",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshFit is a fitness studio that offers group classes, personal training, and nutrition counseling. Their experienced trainers and coaches help clients achieve their fitness goals and maintain a healthy lifestyle.",
+    "generated_domain": "freshstartstudio.co",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "ProPro is a professional services company that offers freelance consulting services in areas such as marketing, finance, and IT. Their team of experts work with businesses to solve complex problems and achieve their goals.",
+    "generated_domain": "propro.co",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "BakedBuzz is a gourmet coffee shop chain that specializes in artisanal coffee blends and sweet treats. They source high-quality beans from local farmers and offer a cozy atmosphere for customers to relax and work.",
+    "generated_domain": "artisanalcoffee",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "GreenThrive is a landscaping and gardening service that helps homeowners and businesses create beautiful outdoor spaces. They offer customized design and maintenance services.",
+    "generated_domain": "greenthrivesolutions",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "XploreX is an adventure travel company that offers customized trips to unique destinations around the world. They provide travel planning, itinerary design, and travel consulting services.",
+    "generated_domain": "adventurereg.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "LittleLearners is a childcare center that offers early childhood education, daycare, and after-school programs for children aged 2-12. Their mission is to provide a nurturing environment that fosters learning and growth.",
+    "generated_domain": "earlychildhoodacademy",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "GreenThrive is a sustainable landscaping company that specializes in eco-friendly lawn care and garden design. Their team of experts uses organic methods to create beautiful outdoor spaces.",
+    "generated_domain": "gardensbydesign.com",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "FreshFare is a meal kit delivery service that offers healthy, farm-to-table ingredients and recipes for home cooking. Their team of chefs craft seasonal, customizable meals that cater to diverse dietary needs.",
+    "generated_domain": "cookingforless.net",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "ProPro Realty is a real estate agency that helps clients buy, sell, and rent properties. Their team of experienced agents provides personalized service and expert market knowledge.",
+    "generated_domain": "proprore.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshFare is a meal delivery service that provides healthy, locally-sourced meals to busy professionals and families. Meals are designed to be easy to reheat and enjoy on the go.",
+    "generated_domain": "mealdeliveryservice",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "FreshFit is a fitness apparel brand that offers high-quality, eco-friendly activewear for men and women. Their designs are inspired by nature and promote an active lifestyle.",
+    "generated_domain": "freshpro.me",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "MindfulMinds is a mental health clinic that offers therapy sessions, counseling, and mindfulness coaching for individuals, couples, and families. They emphasize empathy and personalized care.",
+    "generated_domain": "mindfulminds.b",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "GreenEarth Landscaping is a sustainable landscaping company that specializes in eco-friendly garden design and maintenance. Their team of experts uses only organic materials and practices to create beautiful outdoor spaces that are gentle on the environment.",
+    "generated_domain": "greeneath.io",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "GreenThrive is a sustainable landscaping company that designs and installs eco-friendly outdoor spaces, including rain gardens, native plantings, and green roofs.",
+    "generated_domain": "landscapedbysustainability",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "UrbanUprise is a real estate development company that focuses on sustainable, community-driven projects in urban areas. They prioritize green building practices, community engagement, and social responsibility.",
+    "generated_domain": "realestatedemocracy",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "FreshFit is a wellness center that offers fitness classes, nutrition planning, and healthy lifestyle coaching. Their team of wellness experts helps individuals achieve their fitness goals and maintain a healthy lifestyle.",
+    "generated_domain": "wellnessworks.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "GreenEarth is a sustainable energy company that specializes in solar panel installation and renewable energy solutions for homes and businesses.",
+    "generated_domain": "renewablesolutions.net",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "PetPalooza is a pet-sitting and dog-walking service that provides trusted and reliable care for furry friends while their owners are away. They offer personalized pet care, overnight stays, and fun activities for pets.",
+    "generated_domain": "petpaloozacare",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "GreenBite is a meal kit delivery service that specializes in plant-based and vegan recipes. Their chef-designed meals are made with locally sourced ingredients and cater to various dietary needs.",
+    "generated_domain": "mealpreparation.com",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "Windsong is a renewable energy company that develops and installs wind turbines, solar panels, and energy storage systems for residential and commercial clients. Their solutions reduce carbon footprint.",
+    "generated_domain": "windenergyco.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshFare is a meal kit delivery service that offers healthy, pre-portioned ingredients and easy-to-follow recipes. Their menu changes seasonally and caters to various dietary needs.",
+    "generated_domain": "kitchencraft.net",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "ZenZone is a meditation and yoga studio that offers classes, workshops, and retreats. Their instructors are experienced and knowledgeable in mindfulness practices.",
+    "generated_domain": "zenzone.co",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "Provenance is a luxury goods retailer that specializes in rare, authentic, and high-quality items. Their expert curators source unique pieces from around the world, ensuring that customers receive exceptional products.",
+    "generated_domain": "provenancecollectibles.com",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "BloomBites is a meal delivery service that specializes in healthy, vegan, and gluten-free snacks and meals for busy professionals and families. The company sources its ingredients from local farmers and uses eco-friendly packaging.",
+    "generated_domain": "snacksnurse",
+    "confidence": 0.3
+  },
+  {
+    "business_description": "GreenThrive is a sustainable landscaping service that designs and maintains eco-friendly outdoor spaces. Their team of experts creates beautiful, environmentally conscious gardens and yards.",
+    "generated_domain": "greenthrive.net",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "FiddleFit is a fitness studio offering personalized training sessions, group classes, and nutrition coaching for a holistic approach to wellness.",
+    "generated_domain": "theirstudio.net",
+    "confidence": 0.2
+  },
+  {
+    "business_description": "FreshBite is a meal-kit delivery service that provides healthy, pre-portioned ingredients and recipes to busy professionals. With a focus on sustainability, FreshBite sources ingredients from local farmers and reduces food waste.",
+    "generated_domain": "freshbite.today",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "VentureVine is a business incubator that provides resources, mentorship, and funding to startups and entrepreneurs. Their expert team helps clients develop and launch innovative products and services.",
+    "generated_domain": "startupstation.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshBite is a meal kit delivery service that offers healthy, pre-portioned ingredients and recipes to busy individuals and families. Their team of chefs and dieticians creates customized meal plans that cater to various dietary needs and preferences.",
+    "generated_domain": "freshbitekit.co",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "BloomBites is a food delivery service that specializes in healthy, organic meals for busy professionals. Their chefs use locally sourced ingredients to create nutritious and delicious meals.",
+    "generated_domain": "healthybites.co",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "CraftCoven is a subscription-based service that delivers a monthly selection of artisanal craft supplies, including yarn, fabric, and paper goods. They offer online tutorials and community support.",
+    "generated_domain": "craftcoven.com",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "WellnessWise is a health and wellness consulting firm that provides personalized coaching and guidance to individuals and companies. Their team of experts helps clients achieve their wellness goals and improve overall well-being.",
+    "generated_domain": "wellnesswise.co",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "LearnLoop is an online education platform that offers interactive, AI-powered learning tools for students of all ages. Their courses cover a range of subjects, from math and science to languages and arts.",
+    "generated_domain": "edutechlearn.com",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "MindfulMinds is a mental health and wellness app that provides guided meditations, mood tracking, and personalized coaching to users. The app aims to improve mental well-being and reduce stress.",
+    "generated_domain": "mentalhealthcoach.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "GreenGrid is a renewable energy company that provides solar panel installation services for residential and commercial clients. Users can monitor energy usage and savings online.",
+    "generated_domain": "solarpowerpro.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BloomBistro is a plant-based restaurant that offers a seasonal menu of healthy, locally sourced dishes. Their chefs are committed to reducing food waste and promoting sustainable eating practices.",
+    "generated_domain": "plantbasedbistro.com",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "FreshFare is a meal kit delivery service providing healthy, pre-portioned ingredients and easy-to-follow recipes for home cooking. Their menu changes seasonally to ensure the freshest ingredients and flavors.",
+    "generated_domain": "cookafreshkit.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BloomBrite is a subscription-based flower delivery service that provides fresh, hand-picked bouquets to brighten up homes and offices. They offer flexible subscription plans and a wide variety of flowers to suit different tastes and occasions.",
+    "generated_domain": "brightbouquets",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "GreenThrive is a hydroponic farm that grows fresh, sustainable produce using state-of-the-art technology. They supply local restaurants and grocery stores with high-quality greens.",
+    "generated_domain": "greentechgrowing",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshFit Foods is a meal preparation service that provides healthy and nutritious meals for fitness enthusiasts and athletes. Their meals are crafted by a team of chefs and nutritionists to help clients achieve their fitness goals.",
+    "generated_domain": "nutritiononpoint.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "Pure Water is a water filtration and purification systems company that provides clean and healthy drinking water solutions for homes and businesses.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "BloomBuddy is a smart gardening app that helps urban gardeners care for their plants. The app provides personalized advice, watering reminders, and pest alerts to ensure healthy plant growth.",
+    "generated_domain": "urbanowers.net",
+    "confidence": 0.3
+  },
+  {
+    "business_description": "DreamDecor is an interior design firm creating bespoke spaces for homes and offices. Their team of designers specializes in sustainable, eco-friendly materials and unique decorative elements.",
+    "generated_domain": "greenspacesdesign.net",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "MindfulMinds is a mental wellness center that provides counseling, therapy, and mindfulness training to individuals and groups. Their team of certified therapists offers personalized support and guidance to promote mental well-being.",
+    "generated_domain": "wellnesswings.net",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "BookBridge is a platform that connects readers with independent authors and small publishers. They offer e-book subscriptions, author interviews, and community forums for book lovers.",
+    "generated_domain": "readconnectbooks.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshFit is a meal delivery service that provides healthy, organic, and customizable meal plans for fitness enthusiasts and busy professionals. Their chefs create nutritious meals that cater to various dietary needs and preferences.",
+    "generated_domain": "healthydelivery.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "PurePixels is a graphic design agency that specializes in branding, web design, and visual storytelling. Their team of creatives helps businesses communicate their message through compelling visuals.",
+    "generated_domain": "pixelperfect.studio",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "BrainBloom is an online educational platform that offers interactive courses, workshops, and resources for personal development and professional growth.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "PetPalooza is a subscription-based pet toy and treat service that delivers a new package of fun goodies to your doorstep every month. Each box is tailored to your pet's individual needs and preferences.",
+    "generated_domain": "petfunbox.pro",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "FreshFleet is a fleet management company that provides customized solutions for vehicle maintenance, tracking, and optimization. Their team of experts help businesses reduce costs, improve efficiency, and enhance their fleet operations.",
+    "generated_domain": "maintenancemanagementpro.com",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "BloomBeauty Co. is an e-commerce platform specializing in artisanal, small-batch skincare products. Their products are handcrafted with natural ingredients and essential oils to nourish and protect the skin.",
+    "generated_domain": "bloomskincare",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "QuaintQuarters is a boutique interior design firm that specializes in unique, bespoke spaces for homes, offices, and commercial properties. They offer consulting, decorating, and styling services.",
+    "generated_domain": "homedecor.net",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "Lumina Learning is an online education platform that offers interactive, project-based courses in STEM fields, creative arts, and soft skills.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "CycleSphere is an e-bike manufacturer that designs and builds high-performance electric bicycles for commuters and outdoor enthusiasts. Their bikes feature advanced technology and sustainable designs.",
+    "generated_domain": "ebikeempire.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "GreenThrive is a sustainable gardening and landscaping service that helps homeowners create eco-friendly outdoor spaces. GreenThrive's experts design and install rainwater harvesting systems, native plant gardens, and energy-efficient irrigation systems.",
+    "generated_domain": "outdoorsy.io",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "BloomBrite is a subscription-based flower delivery service that provides fresh, hand-picked bouquets to brighten up homes and offices. They offer flexible subscription plans and a wide variety of flowers to suit different tastes and occasions.",
+    "generated_domain": "brightandbeautiful",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "CraftCrown is a jewelry making company that creates unique, handmade pieces using sustainable materials and eco-friendly practices. They offer custom orders and repair services.",
+    "generated_domain": "handmadejewels",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "Proxima Productions is a full-service video production company specializing in cinematic storytelling, corporate videos, and social media content creation.",
+    "generated_domain": "video.proxima",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "MindfulMinds is a mental wellness center that offers therapy, counseling, and mindfulness coaching to individuals and groups.",
+    "generated_domain": "our",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "FreshFare is a meal kit delivery service that partners with local farmers to source ingredients. They offer vegetarian, vegan, and gluten-free options.",
+    "generated_domain": "cooklocal.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BloomBuddy is a plant nursery that offers online ordering and local delivery of indoor plants, succulents, and flowers. Users can receive plant care tips and advice.",
+    "generated_domain": "gardenbuddieshop",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "FoodFiesta is a meal kit delivery service that specializes in international cuisine. Their recipes are designed to explore flavors and ingredients from around the world.",
+    "generated_domain": "globaleats.io",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "Provenance is an art consultancy that helps collectors and businesses source unique and authentic art pieces from emerging and established artists.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "DreamDecor is an interior design firm creating bespoke spaces for homes and offices. Their team of designers specializes in sustainable, eco-friendly materials and unique decorative elements.",
+    "generated_domain": "spacesbydesign.io",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "LearnLingo is a language learning platform that uses interactive games, quizzes, and conversations with native speakers to help users learn a new language.",
+    "generated_domain": "conversationpro.onlinelearners",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "CraftCrew is a handmade craft marketplace that features unique and handmade products from independent artists and makers.",
+    "generated_domain": "our",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "BloomBites is an artisanal bakery that specializes in handcrafted, organic treats for special occasions. From custom wedding cakes to gourmet cookies, their talented pastry chefs create mouthwatering masterpieces that delight the senses.",
+    "generated_domain": "sugarhightreated",
+    "confidence": 0.3
+  },
+  {
+    "business_description": "Pure Press is a specialty coffee roastery that sources high-quality, small-batch beans from around the world. Our expert roasters craft unique blends that showcase the distinct flavors and characteristics of each region.",
+    "generated_domain": "purepresscoffee",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "HomeHelp is a home maintenance and repair service that provides affordable and reliable solutions to homeowners. Their team of experts offers a range of services, including plumbing, electrical work, and handyman services.",
+    "generated_domain": "handymanhero.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "Proxima Print is a digital printing company that offers high-quality, affordable printing services for businesses and individuals. Our state-of-the-art equipment and expert team ensure fast turnaround times and exceptional results.",
+    "generated_domain": "digitalpress.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "CodeCraze is a coding bootcamp that offers intensive, in-person training programs in web development, data science, and artificial intelligence. CodeCraze's experienced instructors provide mentorship, career coaching, and job placement support.",
+    "generated_domain": "codecraze.net",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "BloomBeauty is a natural skincare company that offers handmade, organic products for skin, hair, and body care. The company promotes sustainable beauty practices.",
+    "generated_domain": "organicbeautyproducts",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "DreamDecor is an interior design consulting service that offers personalized home makeovers. Clients can schedule virtual or in-person consultations with experienced designers, who provide customized 3D room designs and shopping lists. DreamDecor partners with furniture retailers to offer exclusive discounts to clients.",
+    "generated_domain": "homedecor.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshFiesta is a gourmet meal kit delivery service that specializes in Latin-inspired cuisine. Each week, customers receive a new recipe and ingredients to make a delicious and healthy meal at home.",
+    "generated_domain": "freshgourmet.net",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "FreshFare is a meal delivery service that provides healthy and delicious meals made with locally sourced ingredients and sustainable practices.",
+    "generated_domain": "our",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "BloomBistro is a modern flower delivery service that offers a wide range of bouquets and arrangements for any occasion. Their expert florists use only the freshest flowers to create stunning pieces.",
+    "generated_domain": "petalperfection.me",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "BikeBuddy is a bike-sharing service that offers affordable, convenient rentals for commuters and cyclists in urban areas.",
+    "generated_domain": "users",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "BloomBazaar is an online marketplace for unique, handmade, and artisanal goods from local vendors and small businesses.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "Lumina Lighting is a lighting design firm that specializes in energy-efficient, LED-based solutions for residential and commercial spaces.",
+    "generated_domain": "they",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "LearnQuest is an online education platform that provides interactive and engaging courses and tutorials for students and professionals.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "SunScription is a solar panel installation company that provides residential and commercial clients with clean energy solutions. They offer financing options and maintenance services.",
+    "generated_domain": "panelprofessionals.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "StyleSavvy is a fashion consulting firm that offers personalized styling services for individuals and businesses. Their team of stylists provides customized wardrobe planning, fashion coaching, and image consulting services.",
+    "generated_domain": "stylepro.biz",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "BloomBeauty is an e-commerce platform that sells natural and organic skincare products, makeup, and haircare products. They focus on sustainable and cruelty-free brands.",
+    "generated_domain": "bloombeauty",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "CodeCraze is a coding bootcamp that teaches aspiring developers the skills they need to succeed in the tech industry. Their expert instructors provide hands-on training and mentorship to help students land their dream jobs.",
+    "generated_domain": "codecraze.st",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "PetalPushers is a flower delivery service that offers fresh, sustainably sourced flowers and plants to customers. Their bouquets are designed to promote environmental responsibility and reduce waste.",
+    "generated_domain": "petalperfection.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "MindfulMate is a mental wellness app that connects users with certified therapists, coaches, and wellness experts. Users can access guided meditations, mood tracking tools, and personalized support networks.",
+    "generated_domain": "wellnesswings.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "WellnessWise is a health coaching platform that connects users with certified wellness experts for personalized nutrition planning and stress management.",
+    "generated_domain": "they",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "ProPro is a professional photography studio that specializes in portrait, wedding, and commercial photography. Their team of experienced photographers capture stunning, high-quality images that tell unique stories.",
+    "generated_domain": "photographerspro.net",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "VentureVelo is a venture capital firm that specializes in investing in startups and early-stage companies in the tech, healthcare, and sustainable energy sectors. Their mission is to fuel innovation and drive growth in these industries.",
+    "generated_domain": "techventures.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BookBridge is an online bookstore that specializes in rare and out-of-print titles. Their vast collection and knowledgeable staff make it a haven for book lovers and collectors.",
+    "generated_domain": "readerrarities.store",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "Pure Water is a water filtration and purification systems company that provides clean and healthy drinking water solutions for homes and businesses.",
+    "generated_domain": "waterpure.io",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "MedMaven is a healthcare technology company that develops AI-powered diagnostic tools and medical software solutions for healthcare providers and patients.",
+    "generated_domain": "medmaven.health",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "BloomBites is a healthy meal delivery service that caters to busy professionals and families, offering a variety of nutritious and easy-to-prepare meal options.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "BloomBites is an artisanal food company that specializes in creating unique and delicious plant-based snacks. Their mission is to inspire healthy eating habits and reduce the environmental impact of the food industry.",
+    "generated_domain": "snackwise.io",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "BloomBeauty is a beauty and wellness brand that offers a range of natural and organic skincare products and services. Their team of expert estheticians and skincare specialists help clients achieve Radiant skin.",
+    "generated_domain": "glowandsmile.store",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "CodeCamp is a coding bootcamp that provides hands-on training and mentorship for aspiring developers. Their programs are designed to prepare students for a career in tech.",
+    "generated_domain": "codeacademy.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "HomeHelp is a home maintenance and repair service that provides affordable and reliable solutions to homeowners. Their team of experts offers a range of services, including plumbing, electrical work, and handyman services.",
+    "generated_domain": "homefix.io",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "PetalPushers is a subscription-based flower delivery service that sends a new bouquet to customers' doors every month. With a focus on sustainability and locally sourced flowers, PetalPushers aims to brighten up any room and bring a smile to customers' faces.",
+    "generated_domain": "petalpushers.com",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "Provenance Properties is a real estate agency specializing in luxury homes, commercial properties, and vacation rentals in upscale neighborhoods.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "BloomBites is a food technology company that creates plant-based, bite-sized snacks for health-conscious consumers. Their products are made from sustainable ingredients and are free from artificial preservatives and additives.",
+    "generated_domain": "healthystrands.t",
+    "confidence": 0.2
+  },
+  {
+    "business_description": "BloomBazaar is an online marketplace for artisanal goods, featuring unique handmade products from around the world. The platform allows customers to discover and support independent makers and small businesses.",
+    "generated_domain": "bloombazaar.com",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "FreshFare is a meal kit delivery service that provides healthy, pre-measured ingredients and recipes to customers' doorsteps. Their meals are designed by experienced chefs and nutritionists to cater to various dietary needs, including vegan, gluten-free, and low-carb options. With FreshFare, customers can cook delicious meals at home without the hassle of meal planning and grocery shopping.",
+    "generated_domain": "eatfreshcook.co",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "FitFolks is a social fitness community that connects like-minded individuals who share a passion for healthy living. Join our workouts, events, and online forums.",
+    "generated_domain": "wellnessworld.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshFit Foods is a meal delivery service that focuses on healthy, portion-controlled meals for busy professionals. With a focus on nutrition and convenience, FreshFit Foods offers customizable meal plans and doorstep delivery.",
+    "generated_domain": "mealsonwheels.co",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "FreshFiesta is a catering and event planning company that specializes in creating customized and memorable events for corporate and social gatherings.",
+    "generated_domain": "tastefashioned.co",
+    "confidence": 0.3
+  },
+  {
+    "business_description": "Lumina Learning is an educational platform that offers online courses and tutoring services for students of all ages. Their experienced teachers provide personalized instruction and support.",
+    "generated_domain": "knowledgequest.biz",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BloomBeauty is a natural skincare company that creates handmade, organic products for face and body. Their team of experts uses sustainable practices and eco-friendly packaging to reduce environmental impact.",
+    "generated_domain": "natureskins.net",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "CodeCraze is a coding academy that offers online courses, bootcamps, and workshops for students of all ages and skill levels. Their mission is to provide accessible and engaging computer science education.",
+    "generated_domain": "devzone.pro",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "CraftCo is a handmade craft marketplace that connects artisans with shoppers looking for unique and bespoke gifts.",
+    "generated_domain": "with",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "BloomBites is a healthy snack subscription box service that delivers nutritious and delicious bites to customers' doorsteps. Their menu changes seasonally and features locally sourced ingredients from sustainable farms. Perfect for health-conscious individuals and busy professionals.",
+    "generated_domain": "healthybitesdelivered",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "SkillSphere is an online learning platform that offers courses and tutorials in a variety of subjects, including technology, business, and creative arts. Their experienced instructors focus on providing engaging and interactive lessons.",
+    "generated_domain": "skillfusion.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "Oasis Outdoors is an outdoor gear company that designs and manufactures eco-friendly camping equipment and apparel. Their products are sustainable, durable, and functional.",
+    "generated_domain": "geargeeksunite",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "BookBridge is an online bookstore that specializes in rare and out-of-print titles. Their vast collection and knowledgeable staff make it a haven for book lovers and collectors.",
+    "generated_domain": "bookbridge.co",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "DreamDecor is an interior design firm that specializes in residential and commercial design projects. Their experienced designers focus on creating unique and functional spaces that reflect their clients' personal style.",
+    "generated_domain": "decorinspired.com",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "FreshFare is a meal kit delivery service that specializes in healthy, easy-to-prepare meals using locally sourced ingredients. Their team of chefs and nutritionists create delicious, portion-controlled recipes for busy lives.",
+    "generated_domain": "healthypeace.me",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "Provenance Pro is a luxury real estate agency that specializes in high-end properties and exclusive customer service. With a focus on discretion and attention to detail, Provenance Pro provides bespoke real estate solutions for discerning clients.",
+    "generated_domain": "propertysellers.net",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "TechSpark is a software development company that specializes in creating custom mobile and web applications for businesses and entrepreneurs. Their team of experienced developers use cutting-edge technology to design and build innovative solutions.",
+    "generated_domain": "devcraftpro.com",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "Provenance Real Estate is a full-service real estate company that specializes in buying, selling, and renting properties. They focus on providing expert knowledge and personalized service.",
+    "generated_domain": "realestatesolutions.b",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "CareerCraft Co. is a career development platform that offers personalized coaching, resume building, and job matching services. With a focus on empowering professionals to reach their full potential, CareerCraft Co. aims to be the go-to destination for career growth.",
+    "generated_domain": "careercraft.coach",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "Proxima Learning is an online education platform that offers interactive courses and tutorials on advanced technologies like AI, robotics, and cybersecurity.",
+    "generated_domain": "techbite.today",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "TechForge is a software development company that specializes in creating custom solutions for businesses and startups. Their team of experts provides end-to-end services, from design to deployment.",
+    "generated_domain": "softwareforge.net",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "SunScription is a subscription box service that delivers a monthly package of artisanal foods, specialty teas, and handcrafted goods. With a focus on small-batch, locally sourced products, SunScription brings a taste of sunshine to customers' doors.",
+    "generated_domain": "subscriptionboxstudio.com",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "SparkleSanctuary is a holistic wellness center providing rejuvenating spa services, massages, and organic skincare treatments in a serene, peaceful atmosphere.",
+    "generated_domain": "holisticgetaway.b",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "DesignDen is a graphic design agency that specializes in branding, web design, and digital marketing services.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "FreshBite is a meal kit delivery service that provides healthy, pre-measured ingredients and easy-to-follow recipes to busy professionals. Their focus is on using locally sourced and organic produce to create delicious meals that can be prepared in under 30 minutes.",
+    "generated_domain": "cookfresh.today",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "TerraTonic is a sustainable landscaping company that creates eco-friendly outdoor spaces for residential and commercial clients. Their team of experts uses native plants and innovative designs to reduce environmental impact.",
+    "generated_domain": "greenscapegroup",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "TechSpark is a software development company that specializes in creating custom mobile and web applications for businesses and entrepreneurs. Their team of experienced developers use cutting-edge technology to design and build innovative solutions.",
+    "generated_domain": "appsparkstudio",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "BloomBeauty Co. is an e-commerce platform specializing in artisanal, small-batch skincare products. Their products are handcrafted with natural ingredients and essential oils to nourish and protect the skin.",
+    "generated_domain": "bloomskincare",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "SkillSphere is an online learning platform that offers courses and training programs in emerging technologies like AI, blockchain, and cybersecurity. Their mission is to equip professionals with in-demand skills.",
+    "generated_domain": "techuniversity.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "Purely Paws is a pet food company that offers natural, organic meal options for dogs and cats. Their recipes are carefully crafted to promote optimal health and well-being.",
+    "generated_domain": "dogtreats.co",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "GreenScene is a sustainable landscaping company that specializes in eco-friendly lawn care and garden design. They use native plants and organic materials to create beautiful, low-maintenance outdoor spaces.",
+    "generated_domain": "greenscene.land",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "DreamDecor is an interior design firm that offers custom decorating and remodeling services for homes and businesses. They provide 3D design renderings and project management.",
+    "generated_domain": "dreamhomesdesign.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "ProPro is a professional photography studio that specializes in corporate headshots, product photography, and event coverage. Their experienced photographers use state-of-the-art equipment to capture high-quality images.",
+    "generated_domain": "propro.co",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "PetalPushers is a flower delivery and event planning service that provides beautiful bouquets and arrangements for special occasions.",
+    "generated_domain": "their",
+    "confidence": 0.1
+  },
+  {
+    "business_description": "LumiStudio is a photography studio that specializes in portrait, wedding, and event photography. They offer customized photography packages and editing services.",
+    "generated_domain": "imageinspiration.com",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "FreshFare is a meal delivery service that offers healthy and organic meals for busy professionals and families. They cater to different dietary needs.",
+    "generated_domain": "healthybite.services",
+    "confidence": 0.8
+  },
+  {
+    "business_description": "LearnEase is an education technology platform that offers personalized learning tools and adaptive assessments for students of all ages. Their goal is to make learning more engaging and effective.",
+    "generated_domain": "learnleap.com",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "SparkleSquad is a cleaning and organization service that sends trained and background-checked professionals to homes and offices. Their eco-friendly products and modern equipment ensure a sparkling clean space.",
+    "generated_domain": "sparkleclean.com",
+    "confidence": 0.85
+  },
+  {
+    "business_description": "CraftCrew is a handmade craft marketplace that features unique and handmade products from independent artists and makers.",
+    "generated_domain": "the",
+    "confidence": 0.0
+  },
+  {
+    "business_description": "BloomBistro is a plant-based restaurant that offers a seasonal menu of healthy, locally sourced dishes. Their chefs are committed to reducing food waste and promoting sustainable eating practices.",
+    "generated_domain": "veggievanquish",
+    "confidence": 0.4
+  },
+  {
+    "business_description": "PurePours is a specialty coffee roastery that sources high-quality, organic beans from small-batch farmers around the world.",
+    "generated_domain": "coffeeconnoisseurs",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "Provenance Properties is a boutique real estate agency that specializes in luxury homes, estates, and commercial properties. Their expert agents provide personalized service, in-depth market knowledge, and discretion for discerning clients.",
+    "generated_domain": "luxurylistings.today",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "FreshFit is a fitness studio that offers group classes, personal training, and nutrition counseling. Their experienced trainers and coaches help clients achieve their fitness goals and maintain a healthy lifestyle.",
+    "generated_domain": "healthymotion.io",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "MindMend is a mental wellness platform that offers AI-powered coaching, meditation tools, and community support to help you achieve emotional balance and resilience.",
+    "generated_domain": "calmcollective.com",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "BloomBites is a healthy meal delivery service that caters to busy professionals and families, offering a variety of nutritious and easy-to-prepare meal options.",
+    "generated_domain": "bitebybite.t",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "BloomBazaar is an online marketplace for artisanal home decor and furniture. They feature a curated selection of unique, handmade pieces from independent designers and makers around the world.",
+    "generated_domain": "homemodernmarket.net",
+    "confidence": 0.6
+  },
+  {
+    "business_description": "GreenEarth Landscaping is a sustainable landscaping service that uses eco-friendly practices to design and maintain beautiful outdoor spaces. They offer customized solutions for residential and commercial properties.",
+    "generated_domain": "greendesign.net",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "BloomBeauty is a beauty and wellness center that provides a range of services including skincare, makeup, and massage therapy. Their mission is to help clients achieve beauty and wellness from the inside out.",
+    "generated_domain": "bloombeauty",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "FreshFare is a meal kit delivery service that sources ingredients from local farmers and suppliers. They offer healthy, easy-to-make meals for busy individuals and families.",
+    "generated_domain": "freshfare.com",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "Provenance Properties is a luxury real estate agency that specializes in high-end residential and commercial properties. Their team of experts provides personalized service and expert market knowledge.",
+    "generated_domain": "provoproperties.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "CodeCrafter is an online coding bootcamp that provides interactive, project-based learning experiences for aspiring software developers. Their curriculum covers a range of programming languages and technologies.",
+    "generated_domain": "devjourney.co",
+    "confidence": 0.7
+  },
+  {
+    "business_description": "Provenance Real Estate is a full-service real estate company that specializes in buying, selling, and renting properties. They focus on providing expert knowledge and personalized service.",
+    "generated_domain": "provenancerealty",
+    "confidence": 0.9
+  },
+  {
+    "business_description": "FreshFare is a meal delivery service that caters to individuals with dietary restrictions, offering gluten-free, vegan, and keto options.",
+    "generated_domain": "the",
+    "confidence": 0.0
+  },
+  {
+    "business_description": "FreshFoliage is a plant delivery service that brings greenery and beauty to offices and homes. With a wide variety of plants and expert care advice, FreshFoliage helps clients bring the outdoors in.",
+    "generated_domain": "freshfoliage.co",
+    "confidence": 1.0
+  },
+  {
+    "business_description": "FreshFare is a meal kit delivery service that partners with local farmers to source ingredients. They offer vegetarian, vegan, and gluten-free options.",
+    "generated_domain": "freshboxdeltivery",
+    "confidence": 0.6
+  }
+]

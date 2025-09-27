@@ -1,6 +1,10 @@
 from transformers import TrainingArguments, EarlyStoppingCallback
 
 def create_training_args(output_dir: str, config: dict) -> TrainingArguments:
+    # Checkpointing
+    disable_ckpt = config.get("disable_checkpoints", False)
+    eval_strategy = config.get("eval_strategy", config.get("eval_strategy", "steps"))
+    save_strategy = "no" if disable_ckpt else config.get("save_strategy", "steps")
     return TrainingArguments(
         output_dir=output_dir,
         num_train_epochs=config.get("num_train_epochs", 3),
@@ -14,7 +18,7 @@ def create_training_args(output_dir: str, config: dict) -> TrainingArguments:
         eval_accumulation_steps=config.get("eval_accumulation_steps", 16),
 
         # Evaluation strategy
-        eval_strategy=config.get("eval_strategy", "steps"),
+        eval_strategy=eval_strategy,
         eval_steps=config.get("eval_steps", None),
 
         # Optimizer and scheduler
@@ -24,11 +28,13 @@ def create_training_args(output_dir: str, config: dict) -> TrainingArguments:
         warmup_ratio=config.get("warmup_ratio", 0.3),
 
         # Logging and saving
+        save_strategy=save_strategy,
         logging_steps=config.get("logging_steps", 50),
         save_steps=config.get("save_steps", 50),
+        save_total_limit=0,
         
-        # save best model
-        load_best_model_at_end=True,
+        # Save best model
+        load_best_model_at_end=False if disable_ckpt else config.get("load_best_model_at_end", True),
         metric_for_best_model=config.get("metric_for_best_model", "eval_loss"),
         greater_is_better=False,
         
@@ -44,7 +50,10 @@ def create_training_args(output_dir: str, config: dict) -> TrainingArguments:
         max_steps=config.get("max_steps", -1),
 
         # Sequence handling
-        group_by_length=config.get("group_by_length", True)
+        group_by_length=config.get("group_by_length", True),
+        
+        # Silencer/reporters
+        report_to=config.get("report_to", [])
     )
 
 def get_early_stopping_callback(config: dict):
